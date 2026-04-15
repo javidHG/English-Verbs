@@ -5,11 +5,10 @@
 2. Instalación de Flutter
 3. Instalación de Android Studio
 4. Configurar tu celular Android
-5. Crear el proyecto y copiar el código
 6. Correr la app en tu celular
 7. Compilar el APK para instalar sin cable
 8. Descripción de cada archivo
-9. Comandos de referencia rápida
+
 
 ---
 
