@@ -92,34 +92,6 @@ Luego en terminal ejecuta:
 3. En terminal escribe: flutter devices
    Debe aparecer tu celular en la lista
 
----
-
-## 5. CREAR EL PROYECTO Y COPIAR EL CÓDIGO
-
-### Paso 1: Crear el proyecto Flutter
-Abre una terminal en la carpeta donde quieras guardar el proyecto y ejecuta:
-
-   flutter create english_verbs
-   cd english_verbs
-
-### Paso 2: Reemplazar pubspec.yaml
-Reemplaza el contenido del archivo pubspec.yaml con el que está en los archivos del proyecto.
-
-### Paso 3: Crear la estructura de carpetas
-Ejecuta estos comandos uno por uno:
-
-   mkdir lib\models
-   mkdir lib\database
-   mkdir lib\providers
-   mkdir lib\theme
-   mkdir lib\screens
-   mkdir lib\widgets
-
-(En Mac/Linux usa mkdir -p lib/models lib/database lib/providers lib/theme lib/screens lib/widgets)
-
-### Paso 4: Copiar todos los archivos
-Copia cada archivo de código en su carpeta correspondiente según la estructura indicada arriba.
-
 ### Paso 5: Instalar dependencias
    flutter pub get
 
@@ -194,40 +166,6 @@ Tarjeta individual en la lista. Muestra el verbo base, las pills de pasado y par
 
 ### widgets/verb_form_sheet.dart
 Formulario que aparece desde abajo para agregar o editar un verbo. Valida que los campos obligatorios estén llenos.
-
----
-
-## 9. COMANDOS DE REFERENCIA RÁPIDA
-
-| Comando | Descripción |
-|---------|-------------|
-| flutter doctor | Verifica instalación |
-| flutter devices | Lista dispositivos conectados |
-| flutter pub get | Instala dependencias |
-| flutter run | Corre la app en el dispositivo |
-| flutter run --release | Corre en modo optimizado |
-| flutter build apk --release | Genera APK para instalar |
-| flutter hot reload (R) | Recarga cambios instantáneamente |
-| flutter clean | Limpia build si hay errores raros |
-
----
-
-## SOLUCIÓN DE PROBLEMAS COMUNES
-
-**"flutter: command not found"**
-→ Flutter no está en el PATH. Revisa el paso 2.
-
-**"No devices found"**
-→ Verifica que la depuración USB esté activa y el cable esté bien conectado. Intenta desconectar y volver a conectar.
-
-**"Gradle build failed"**
-→ Ejecuta: flutter clean && flutter pub get && flutter run
-
-**"SDK not found"**
-→ En Android Studio: File → Project Structure → SDK Location y verifica la ruta.
-
-**La app se instala pero falla al abrir**
-→ Ejecuta flutter run para ver el error exacto en la terminal.
 
 ---
 
